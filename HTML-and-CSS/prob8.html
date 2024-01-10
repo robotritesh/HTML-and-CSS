@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+   href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"
+   />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body{font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h1+h3{
+    text-align: center;
+}
+
+h3>span{
+    color: red;
+}
+
+#containar{
+    width: 54%;
+    height: 570px;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    display: flex;
+    margin-top: -15%;
+
+}
+
+.box{
+    width: 100%;
+    margin: 5px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.box> div{
+    width: auto;
+    height: 250px;
+    /* background-color: rgb(201, 187, 213);  */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border: 1px solid blue; */
+}
+
+#node{
+    background-color: rgb(201, 187, 213);
+}
+
+img{
+    width: 50%;
+    height: 150px;
+     margin: 30px 80px;
+}
+h3{
+    margin-left: 10px;
+}
+
+h3+p{
+            margin-top: -10px;
+            margin-left: 10px;
+}
+
+h3+img{
+    position: relative;
+    top:-120px;
+    left:48%;
+    width: 175px;
+}
+
+i{
+    color: green;
+    border-radius: 10px;
+    background-color: rgb(210, 239, 210);
+    padding: 3px;
+    margin-left: 10px;
+}
+
+p{
+    margin-right: -50px;
+    margin-top: -6%;
+    margin-left: 35px;
+} 
+
+button{
+    background-color: red;
+    border: none;
+    width: 85%;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 26px;
+    border-radius: 10px;
+}
+
+button>a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(224, 32, 32);
+}
+
+#tom{
+    background-color: rgb(222, 181, 181);
+}
+
+h5{
+    margin-left: 35%;
+    color: rgb(75, 70, 70);
+}
+
+</style>
+<body>
+ <h1>Our Courses</h1>
+ <h3>Practice-Based Learning Tracks, <span>Supercharged By A.I.</span></h3>
+ <img src="https://www.masaischool.com/images/new-homepage/yellow-vector.svg" alt="undar line img">
+ <div id="containar">
+    <div class="box">
+        <div id="node"> <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/full_stack1_329d6b5595.png" alt="first img"></div>
+        <h3>FULL Stack Web Development</h3>
+        <p>Become job-ready in 30 weeks</p>
+        <hr>
+        <i class="fa fa-check"></i>
+        <p><b>Opportunities:</b>Full Stack Developer, Software Engineer & much more.</p>
+        <i class="fa fa-check"></i>
+        <p>100% live learning with expert instructors.</p>
+        <i class="fa fa-check"></i>
+        <p>Pay After Placement</p>  
+        <button><a href="https://www.masaischool.com/courses/fullstack-web-development">VIEW DETAILS</a></button>
+        
+    </div>
+
+    <div class="box">
+        <div id="tom"> <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/backend_ea129d404e.png" alt="second"></div>
+        <h3>Backend Development</h3>
+        <p>Become job-ready in 35 weeks</p>
+        <hr>
+        <i class="fa fa-check"></i>
+        <p><b>Opportunities:</b>Backend Web Developer, API developer & much more.</p>
+        <i class="fa fa-check"></i>
+        <p>100% live learning with expert instructors.</p>
+        <i class="fa fa-check"></i>
+        <p>Pay After Placement</p>
+        <button><a href="https://www.masaischool.com/courses/backend-web-development">VIEW DETAILS</a></button>
+    </div>
+ </div>
+ <h5>If you are currently studying in 1st,2nd or pre-final year of college,<a style="color: red;" href="https://www.prepleaf.com/?ref=masai&_gl=1*1l88deq*_ga*MjEyMDE2MjQ3LjE2ODM4NDUwNjc.*_ga_GPPD2PTVSL*MTY5NjY5NTk5Ny41MC4xLjE2OTY2OTcxODIuNjAuMC4w">Click Here</a></h5>
+</body>
+</html>
